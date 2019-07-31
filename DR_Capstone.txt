@@ -1,0 +1,13 @@
+To generate an itinerary as per the user requirements, the project requires a few inputs from the user as mentioned below:
+    1. Location details - Name to the city to be visited and the country code where the city resides
+    2. Duration of trip - The total number of days on the trip 
+    3. Max visits per day - This number of places the user wishes to visit per day
+    4. Off days - the number of days, the user wants to take a break for other planned activities or relaxation
+    
+Apart from the data provided for the user, the project will require data from the FourSquare location data API. the following data fields from the Foursquare location data will be helpful in the analysis :
+    1. tourist destinations - this will give data about the top locations in and around the city
+    2. location coordinates - this data is used to calculate the distance between places 
+    3. location reviews - this data will be used to select top locations    
+The Foursquare data is also used to cluster the destinations and print the locations on the city map.
+
+All the data collected will then be preprocessed into required formats, visualized and then used to base the results.
